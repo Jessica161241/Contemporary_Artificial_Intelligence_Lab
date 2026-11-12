@@ -1,0 +1,7 @@
+﻿scene,method,ordering,value,best_action,visited,evaluated,cutoffs,skipped_children,cache_hits,cache_entries,time_median_ms
+sample,minimax,left,5,0,15,8,0,0,0,0,0.009499999578110874
+sample,alphabeta,left,5,0,14,7,1,1,0,0,0.01160000010713702
+sample,alphabeta,reverse,5,0,14,7,1,1,0,0,0.012800000149582047
+ternary_depth6_seed42,minimax,left,-33,0,1093,729,0,0,0,0,0.5345999998098705
+ternary_depth6_seed42,alphabeta,left,-33,0,290,167,51,80,0,0,0.19780000002356246
+ternary_depth6_seed42,alphabeta,reverse,-33,0,383,220,62,107,0,0,0.29040000026725465

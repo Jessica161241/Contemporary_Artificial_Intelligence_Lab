@@ -1,0 +1,5 @@
+﻿problem,heuristic,cost,expanded,generated,frontier_peak,time_median_ms
+1,zero,7,16,17,3,0.028200000087963417
+1,manhattan,7,14,16,3,0.026900000193563756
+2,zero,7,15,24,10,0.04150000040681334
+2,admissible,7,11,19,9,0.0349000001733657

@@ -1,0 +1,13 @@
+﻿H,method,ordering,cache,best_target,value,best_action,visited,evaluated,cutoffs,skipped_children,cache_hits,cache_entries,time_median_ms
+2,minimax,natural,False,T2,-1,1,17,12,0,0,0,0,0.03119999928458128
+2,alphabeta,natural,False,T2,-1,1,13,8,2,4,0,0,0.02840000070136739
+2,alphabeta,reverse,False,T2,-1,1,16,11,1,1,0,0,0.03130000004603062
+2,alphabeta,gain,False,T2,-1,1,11,6,3,6,0,0,0.028200000087963417
+2,alphabeta,natural,True,T2,-1,1,13,8,2,4,0,10,0.0335000004270114
+2,alphabeta,gain,True,T2,-1,1,11,6,3,6,0,7,0.03319999996165279
+4,minimax,natural,False,T3,3,2,65,24,0,0,0,0,0.12080000033165561
+4,alphabeta,natural,False,T3,3,2,47,16,5,6,0,0,0.09610000051907264
+4,alphabeta,reverse,False,T3,3,2,46,16,4,5,0,0,0.09969999973691301
+4,alphabeta,gain,False,T3,3,2,37,12,6,8,0,0,0.09419999969395576
+4,alphabeta,natural,True,T3,3,2,47,16,5,6,0,38,0.130899999930989
+4,alphabeta,gain,True,T3,3,2,37,12,6,8,0,28,0.1129000002038083

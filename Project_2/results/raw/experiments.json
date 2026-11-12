@@ -1,0 +1,3997 @@
+{
+  "distance_precompute_ms": 1.3691000003746012,
+  "distance_matrix": [
+    [
+      0,
+      12,
+      10,
+      4,
+      8,
+      8
+    ],
+    [
+      12,
+      0,
+      8,
+      8,
+      4,
+      10
+    ],
+    [
+      10,
+      8,
+      0,
+      6,
+      6,
+      12
+    ],
+    [
+      4,
+      8,
+      6,
+      0,
+      6,
+      6
+    ],
+    [
+      8,
+      4,
+      6,
+      6,
+      0,
+      6
+    ],
+    [
+      8,
+      10,
+      12,
+      6,
+      6,
+      0
+    ]
+  ],
+  "sample_search": [
+    {
+      "problem": 1,
+      "heuristic": "zero",
+      "cost": 7,
+      "expanded": 16,
+      "generated": 17,
+      "frontier_peak": 3,
+      "time_median_ms": 0.028200000087963417,
+      "time_samples_ms": [
+        0.030300000616989564,
+        0.02949999998236308,
+        0.028399999791872688,
+        0.028200000087963417,
+        0.027399999453336932,
+        0.02700000004551839,
+        0.026700000489654485
+      ]
+    },
+    {
+      "problem": 1,
+      "heuristic": "manhattan",
+      "cost": 7,
+      "expanded": 14,
+      "generated": 16,
+      "frontier_peak": 3,
+      "time_median_ms": 0.026900000193563756,
+      "time_samples_ms": [
+        0.02789999962260481,
+        0.027399999453336932,
+        0.027200000658922363,
+        0.026900000193563756,
+        0.026499999876250513,
+        0.026699999580159783,
+        0.026500000785745215
+      ]
+    },
+    {
+      "problem": 2,
+      "heuristic": "zero",
+      "cost": 7,
+      "expanded": 15,
+      "generated": 24,
+      "frontier_peak": 10,
+      "time_median_ms": 0.04150000040681334,
+      "time_samples_ms": [
+        0.0486999997519888,
+        0.04400000034365803,
+        0.04170000011072261,
+        0.04079999962414149,
+        0.04150000040681334,
+        0.040800000533636194,
+        0.04069999977218686
+      ]
+    },
+    {
+      "problem": 2,
+      "heuristic": "admissible",
+      "cost": 7,
+      "expanded": 11,
+      "generated": 19,
+      "frontier_peak": 9,
+      "time_median_ms": 0.0349000001733657,
+      "time_samples_ms": [
+        0.035200000638724305,
+        0.0349000001733657,
+        0.034699999559961725,
+        0.0349000001733657,
+        0.035400000342633575,
+        0.03590000051190145,
+        0.03459999970800709
+      ]
+    }
+  ],
+  "sample_paths": {
+    "p1_zero": {
+      "path": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "expanded": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    "p1_manhattan": {
+      "path": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "expanded": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    "p2_zero": {
+      "path": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "expanded": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          4
+        ]
+      ]
+    },
+    "p2_admissible": {
+      "path": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "expanded": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          4
+        ]
+      ]
+    }
+  },
+  "trees": [
+    {
+      "scene": "sample",
+      "method": "minimax",
+      "ordering": "left",
+      "value": 5,
+      "best_action": 0,
+      "visited": 15,
+      "evaluated": 8,
+      "cutoffs": 0,
+      "skipped_children": 0,
+      "cache_hits": 0,
+      "cache_entries": 0,
+      "time_median_ms": 0.009499999578110874,
+      "time_samples_ms": [
+        0.010099999599333387,
+        0.009499999578110874,
+        0.009700000191514846,
+        0.009000000318337698,
+        0.011199999789823778,
+        0.00889999955688836,
+        0.008900000466383062
+      ]
+    },
+    {
+      "scene": "sample",
+      "method": "alphabeta",
+      "ordering": "left",
+      "value": 5,
+      "best_action": 0,
+      "visited": 14,
+      "evaluated": 7,
+      "cutoffs": 1,
+      "skipped_children": 1,
+      "cache_hits": 0,
+      "cache_entries": 0,
+      "time_median_ms": 0.01160000010713702,
+      "time_samples_ms": [
+        1.7082999993363046,
+        0.014899999769113492,
+        0.01160000010713702,
+        0.012000000424450263,
+        0.011099999937869143,
+        0.011099999937869143,
+        0.011000000085914508
+      ]
+    },
+    {
+      "scene": "sample",
+      "method": "alphabeta",
+      "ordering": "reverse",
+      "value": 5,
+      "best_action": 0,
+      "visited": 14,
+      "evaluated": 7,
+      "cutoffs": 1,
+      "skipped_children": 1,
+      "cache_hits": 0,
+      "cache_entries": 0,
+      "time_median_ms": 0.012800000149582047,
+      "time_samples_ms": [
+        0.012800000149582047,
+        0.012700000297627412,
+        0.012299999980314169,
+        0.015999999959603883,
+        0.012600000445672777,
+        0.014100000043981709,
+        0.012999999853491317
+      ]
+    },
+    {
+      "scene": "ternary_depth6_seed42",
+      "method": "minimax",
+      "ordering": "left",
+      "value": -33,
+      "best_action": 0,
+      "visited": 1093,
+      "evaluated": 729,
+      "cutoffs": 0,
+      "skipped_children": 0,
+      "cache_hits": 0,
+      "cache_entries": 0,
+      "time_median_ms": 0.5345999998098705,
+      "time_samples_ms": [
+        0.5440000004455214,
+        0.5217999996602884,
+        0.5081999997855746,
+        0.5302999998093583,
+        0.58069999977306,
+        0.540500000170141,
+        0.5345999998098705
+      ]
+    },
+    {
+      "scene": "ternary_depth6_seed42",
+      "method": "alphabeta",
+      "ordering": "left",
+      "value": -33,
+      "best_action": 0,
+      "visited": 290,
+      "evaluated": 167,
+      "cutoffs": 51,
+      "skipped_children": 80,
+      "cache_hits": 0,
+      "cache_entries": 0,
+      "time_median_ms": 0.19780000002356246,
+      "time_samples_ms": [
+        0.22820000049250666,
+        0.20330000006651971,
+        0.19919999976991676,
+        0.19780000002356246,
+        0.19549999979062704,
+        0.19350000002305023,
+        0.18659999932424398
+      ]
+    },
+    {
+      "scene": "ternary_depth6_seed42",
+      "method": "alphabeta",
+      "ordering": "reverse",
+      "value": -33,
+      "best_action": 0,
+      "visited": 383,
+      "evaluated": 220,
+      "cutoffs": 62,
+      "skipped_children": 107,
+      "cache_hits": 0,
+      "cache_entries": 0,
+      "time_median_ms": 0.29040000026725465,
+      "time_samples_ms": [
+        0.299299999824143,
+        0.29399999948509503,
+        0.2866000004360103,
+        0.29240000003483146,
+        0.29040000026725465,
+        0.27690000024449546,
+        0.2809999996316037
+      ]
+    }
+  ],
+  "sample_tree_trace": {
+    "minimax_left": [
+      {
+        "path": [
+          0,
+          0,
+          0
+        ],
+        "value": 3,
+        "kind": "leaf"
+      },
+      {
+        "path": [
+          0,
+          0,
+          1
+        ],
+        "value": 5,
+        "kind": "leaf"
+      },
+      {
+        "path": [
+          0,
+          0
+        ],
+        "value": 5,
+        "kind": "return"
+      },
+      {
+        "path": [
+          0,
+          1,
+          0
+        ],
+        "value": 6,
+        "kind": "leaf"
+      },
+      {
+        "path": [
+          0,
+          1,
+          1
+        ],
+        "value": 9,
+        "kind": "leaf"
+      },
+      {
+        "path": [
+          0,
+          1
+        ],
+        "value": 9,
+        "kind": "return"
+      },
+      {
+        "path": [
+          0
+        ],
+        "value": 5,
+        "kind": "return"
+      },
+      {
+        "path": [
+          1,
+          0,
+          0
+        ],
+        "value": 6,
+        "kind": "leaf"
+      },
+      {
+        "path": [
+          1,
+          0,
+          1
+        ],
+        "value": 9,
+        "kind": "leaf"
+      },
+      {
+        "path": [
+          1,
+          0
+        ],
+        "value": 9,
+        "kind": "return"
+      },
+      {
+        "path": [
+          1,
+          1,
+          0
+        ],
+        "value": 1,
+        "kind": "leaf"
+      },
+      {
+        "path": [
+          1,
+          1,
+          1
+        ],
+        "value": 2,
+        "kind": "leaf"
+      },
+      {
+        "path": [
+          1,
+          1
+        ],
+        "value": 2,
+        "kind": "return"
+      },
+      {
+        "path": [
+          1
+        ],
+        "value": 2,
+        "kind": "return"
+      },
+      {
+        "path": [],
+        "value": 5,
+        "kind": "return"
+      }
+    ],
+    "alphabeta_left": [
+      {
+        "path": [
+          0,
+          0,
+          0
+        ],
+        "value": 3,
+        "kind": "leaf"
+      },
+      {
+        "path": [
+          0,
+          0,
+          1
+        ],
+        "value": 5,
+        "kind": "leaf"
+      },
+      {
+        "path": [
+          0,
+          0
+        ],
+        "value": 5,
+        "kind": "return"
+      },
+      {
+        "path": [
+          0,
+          1,
+          0
+        ],
+        "value": 6,
+        "kind": "leaf"
+      },
+      {
+        "path": [
+          0,
+          1
+        ],
+        "kind": "cutoff",
+        "alpha": 6,
+        "beta": 5,
+        "skipped": [
+          1
+        ]
+      },
+      {
+        "path": [
+          0,
+          1
+        ],
+        "value": 6,
+        "kind": "return"
+      },
+      {
+        "path": [
+          0
+        ],
+        "value": 5,
+        "kind": "return"
+      },
+      {
+        "path": [
+          1,
+          0,
+          0
+        ],
+        "value": 6,
+        "kind": "leaf"
+      },
+      {
+        "path": [
+          1,
+          0,
+          1
+        ],
+        "value": 9,
+        "kind": "leaf"
+      },
+      {
+        "path": [
+          1,
+          0
+        ],
+        "value": 9,
+        "kind": "return"
+      },
+      {
+        "path": [
+          1,
+          1,
+          0
+        ],
+        "value": 1,
+        "kind": "leaf"
+      },
+      {
+        "path": [
+          1,
+          1,
+          1
+        ],
+        "value": 2,
+        "kind": "leaf"
+      },
+      {
+        "path": [
+          1,
+          1
+        ],
+        "value": 2,
+        "kind": "return"
+      },
+      {
+        "path": [
+          1
+        ],
+        "value": 2,
+        "kind": "return"
+      },
+      {
+        "path": [],
+        "value": 5,
+        "kind": "return"
+      }
+    ],
+    "alphabeta_reverse": [
+      {
+        "path": [
+          1,
+          1,
+          1
+        ],
+        "value": 2,
+        "kind": "leaf"
+      },
+      {
+        "path": [
+          1,
+          1,
+          0
+        ],
+        "value": 1,
+        "kind": "leaf"
+      },
+      {
+        "path": [
+          1,
+          1
+        ],
+        "value": 2,
+        "kind": "return"
+      },
+      {
+        "path": [
+          1,
+          0,
+          1
+        ],
+        "value": 9,
+        "kind": "leaf"
+      },
+      {
+        "path": [
+          1,
+          0
+        ],
+        "kind": "cutoff",
+        "alpha": 9,
+        "beta": 2,
+        "skipped": [
+          0
+        ]
+      },
+      {
+        "path": [
+          1,
+          0
+        ],
+        "value": 9,
+        "kind": "return"
+      },
+      {
+        "path": [
+          1
+        ],
+        "value": 2,
+        "kind": "return"
+      },
+      {
+        "path": [
+          0,
+          1,
+          1
+        ],
+        "value": 9,
+        "kind": "leaf"
+      },
+      {
+        "path": [
+          0,
+          1,
+          0
+        ],
+        "value": 6,
+        "kind": "leaf"
+      },
+      {
+        "path": [
+          0,
+          1
+        ],
+        "value": 9,
+        "kind": "return"
+      },
+      {
+        "path": [
+          0,
+          0,
+          1
+        ],
+        "value": 5,
+        "kind": "leaf"
+      },
+      {
+        "path": [
+          0,
+          0,
+          0
+        ],
+        "value": 3,
+        "kind": "leaf"
+      },
+      {
+        "path": [
+          0,
+          0
+        ],
+        "value": 5,
+        "kind": "return"
+      },
+      {
+        "path": [
+          0
+        ],
+        "value": 5,
+        "kind": "return"
+      },
+      {
+        "path": [],
+        "value": 5,
+        "kind": "return"
+      }
+    ]
+  },
+  "treasure": [
+    {
+      "H": 2,
+      "method": "minimax",
+      "ordering": "natural",
+      "cache": false,
+      "best_target": "T2",
+      "value": -1,
+      "best_action": 1,
+      "visited": 17,
+      "evaluated": 12,
+      "cutoffs": 0,
+      "skipped_children": 0,
+      "cache_hits": 0,
+      "cache_entries": 0,
+      "time_median_ms": 0.03119999928458128,
+      "time_samples_ms": [
+        0.031399999897985253,
+        0.032500000088475645,
+        0.03119999928458128,
+        0.029600000743812416,
+        0.029399999220913742,
+        0.032899999496294186,
+        0.029400000130408444
+      ]
+    },
+    {
+      "H": 2,
+      "method": "alphabeta",
+      "ordering": "natural",
+      "cache": false,
+      "best_target": "T2",
+      "value": -1,
+      "best_action": 1,
+      "visited": 13,
+      "evaluated": 8,
+      "cutoffs": 2,
+      "skipped_children": 4,
+      "cache_hits": 0,
+      "cache_entries": 0,
+      "time_median_ms": 0.02840000070136739,
+      "time_samples_ms": [
+        0.028700000257231295,
+        0.030399999559449498,
+        0.02769999991869554,
+        0.027600000066740904,
+        0.02840000070136739,
+        0.028599999495781958,
+        0.027400000362831634
+      ]
+    },
+    {
+      "H": 2,
+      "method": "alphabeta",
+      "ordering": "reverse",
+      "cache": false,
+      "best_target": "T2",
+      "value": -1,
+      "best_action": 1,
+      "visited": 16,
+      "evaluated": 11,
+      "cutoffs": 1,
+      "skipped_children": 1,
+      "cache_hits": 0,
+      "cache_entries": 0,
+      "time_median_ms": 0.03130000004603062,
+      "time_samples_ms": [
+        0.03389999983482994,
+        0.03130000004603062,
+        0.030500000320898835,
+        0.03060000017285347,
+        0.031800000215298496,
+        0.030499999411404133,
+        0.03150000065943459
+      ]
+    },
+    {
+      "H": 2,
+      "method": "alphabeta",
+      "ordering": "gain",
+      "cache": false,
+      "best_target": "T2",
+      "value": -1,
+      "best_action": 1,
+      "visited": 11,
+      "evaluated": 6,
+      "cutoffs": 3,
+      "skipped_children": 6,
+      "cache_hits": 0,
+      "cache_entries": 0,
+      "time_median_ms": 0.028200000087963417,
+      "time_samples_ms": [
+        0.02949999998236308,
+        0.027400000362831634,
+        0.027099999897473026,
+        0.028299999939918052,
+        0.028200000087963417,
+        0.03060000017285347,
+        0.027300000510877
+      ]
+    },
+    {
+      "H": 2,
+      "method": "alphabeta",
+      "ordering": "natural",
+      "cache": true,
+      "best_target": "T2",
+      "value": -1,
+      "best_action": 1,
+      "visited": 13,
+      "evaluated": 8,
+      "cutoffs": 2,
+      "skipped_children": 4,
+      "cache_hits": 0,
+      "cache_entries": 10,
+      "time_median_ms": 0.0335000004270114,
+      "time_samples_ms": [
+        0.034699999559961725,
+        0.03440000000409782,
+        0.0349000001733657,
+        0.0335000004270114,
+        0.0335000004270114,
+        0.03329999981360743,
+        0.03319999996165279
+      ]
+    },
+    {
+      "H": 2,
+      "method": "alphabeta",
+      "ordering": "gain",
+      "cache": true,
+      "best_target": "T2",
+      "value": -1,
+      "best_action": 1,
+      "visited": 11,
+      "evaluated": 6,
+      "cutoffs": 3,
+      "skipped_children": 6,
+      "cache_hits": 0,
+      "cache_entries": 7,
+      "time_median_ms": 0.03319999996165279,
+      "time_samples_ms": [
+        0.03319999996165279,
+        0.16959999993559904,
+        0.03620000006776536,
+        0.03300000025774352,
+        0.03300000025774352,
+        0.03060000017285347,
+        0.04600000011123484
+      ]
+    },
+    {
+      "H": 4,
+      "method": "minimax",
+      "ordering": "natural",
+      "cache": false,
+      "best_target": "T3",
+      "value": 3,
+      "best_action": 2,
+      "visited": 65,
+      "evaluated": 24,
+      "cutoffs": 0,
+      "skipped_children": 0,
+      "cache_hits": 0,
+      "cache_entries": 0,
+      "time_median_ms": 0.12080000033165561,
+      "time_samples_ms": [
+        0.1218999996126513,
+        0.12239999978191918,
+        0.1187999996545841,
+        0.11870000071212417,
+        0.12079999942216091,
+        0.12080000033165561,
+        0.12080000033165561
+      ]
+    },
+    {
+      "H": 4,
+      "method": "alphabeta",
+      "ordering": "natural",
+      "cache": false,
+      "best_target": "T3",
+      "value": 3,
+      "best_action": 2,
+      "visited": 47,
+      "evaluated": 16,
+      "cutoffs": 5,
+      "skipped_children": 6,
+      "cache_hits": 0,
+      "cache_entries": 0,
+      "time_median_ms": 0.09610000051907264,
+      "time_samples_ms": [
+        0.10060000022349413,
+        0.09610000051907264,
+        0.09559999944031006,
+        0.09480000062467298,
+        0.09450000015931437,
+        0.09649999992689118,
+        0.09809999937715475
+      ]
+    },
+    {
+      "H": 4,
+      "method": "alphabeta",
+      "ordering": "reverse",
+      "cache": false,
+      "best_target": "T3",
+      "value": 3,
+      "best_action": 2,
+      "visited": 46,
+      "evaluated": 16,
+      "cutoffs": 4,
+      "skipped_children": 5,
+      "cache_hits": 0,
+      "cache_entries": 0,
+      "time_median_ms": 0.09969999973691301,
+      "time_samples_ms": [
+        0.09969999973691301,
+        0.09970000064640772,
+        0.09979999958886765,
+        0.09930000032909447,
+        0.09969999973691301,
+        0.09670000054029515,
+        0.09409999984200113
+      ]
+    },
+    {
+      "H": 4,
+      "method": "alphabeta",
+      "ordering": "gain",
+      "cache": false,
+      "best_target": "T3",
+      "value": 3,
+      "best_action": 2,
+      "visited": 37,
+      "evaluated": 12,
+      "cutoffs": 6,
+      "skipped_children": 8,
+      "cache_hits": 0,
+      "cache_entries": 0,
+      "time_median_ms": 0.09419999969395576,
+      "time_samples_ms": [
+        0.09469999986322364,
+        0.09589999990566866,
+        0.09419999969395576,
+        0.09369999952468788,
+        0.09310000041296007,
+        0.09520000003249152,
+        0.09349999982077861
+      ]
+    },
+    {
+      "H": 4,
+      "method": "alphabeta",
+      "ordering": "natural",
+      "cache": true,
+      "best_target": "T3",
+      "value": 3,
+      "best_action": 2,
+      "visited": 47,
+      "evaluated": 16,
+      "cutoffs": 5,
+      "skipped_children": 6,
+      "cache_hits": 0,
+      "cache_entries": 38,
+      "time_median_ms": 0.130899999930989,
+      "time_samples_ms": [
+        0.13730000046052737,
+        0.13219999982538866,
+        0.13080000007903436,
+        0.13130000024830224,
+        0.130899999930989,
+        0.12739999965560855,
+        0.12999999944440788
+      ]
+    },
+    {
+      "H": 4,
+      "method": "alphabeta",
+      "ordering": "gain",
+      "cache": true,
+      "best_target": "T3",
+      "value": 3,
+      "best_action": 2,
+      "visited": 37,
+      "evaluated": 12,
+      "cutoffs": 6,
+      "skipped_children": 8,
+      "cache_hits": 0,
+      "cache_entries": 28,
+      "time_median_ms": 0.1129000002038083,
+      "time_samples_ms": [
+        0.27599999975791434,
+        0.14989999999670545,
+        0.121900000522146,
+        0.1129000002038083,
+        0.1081000000340282,
+        0.11230000018258579,
+        0.10769999971671496
+      ]
+    }
+  ],
+  "root_action_values": [
+    {
+      "H": 2,
+      "target": "T1",
+      "immediate_gain": -1,
+      "minimax_value": -4
+    },
+    {
+      "H": 2,
+      "target": "T2",
+      "immediate_gain": 2,
+      "minimax_value": -1
+    },
+    {
+      "H": 2,
+      "target": "T3",
+      "immediate_gain": -1,
+      "minimax_value": -2
+    },
+    {
+      "H": 2,
+      "target": "T4",
+      "immediate_gain": -1,
+      "minimax_value": -4
+    },
+    {
+      "H": 4,
+      "target": "T1",
+      "immediate_gain": -1,
+      "minimax_value": -5
+    },
+    {
+      "H": 4,
+      "target": "T2",
+      "immediate_gain": 2,
+      "minimax_value": 1
+    },
+    {
+      "H": 4,
+      "target": "T3",
+      "immediate_gain": -1,
+      "minimax_value": 3
+    },
+    {
+      "H": 4,
+      "target": "T4",
+      "immediate_gain": -1,
+      "minimax_value": -7
+    }
+  ],
+  "principal_variations": {
+    "2": [
+      {
+        "player": "A",
+        "target": "T2",
+        "gain": 2
+      },
+      {
+        "player": "B",
+        "target": "T3",
+        "gain": 3
+      }
+    ],
+    "4": [
+      {
+        "player": "A",
+        "target": "T3",
+        "gain": -1
+      },
+      {
+        "player": "B",
+        "target": "T1",
+        "gain": 1
+      },
+      {
+        "player": "A",
+        "target": "T2",
+        "gain": 0
+      },
+      {
+        "player": "B",
+        "target": "T4",
+        "gain": -5
+      }
+    ]
+  },
+  "grid_scaling": [
+    {
+      "scene": "open",
+      "size": 10,
+      "seed": 42,
+      "heuristic": "zero",
+      "cost": 18,
+      "expanded": 100,
+      "generated": 100,
+      "frontier_peak": 10,
+      "time_median_ms": 0.1785000004019821,
+      "time_samples_ms": [
+        0.18079999972542282,
+        0.18030000046564965,
+        0.1855000000432483,
+        0.17159999970317585,
+        0.172299999576353,
+        0.1785000004019821,
+        0.17800000023271423
+      ]
+    },
+    {
+      "scene": "open",
+      "size": 10,
+      "seed": 42,
+      "heuristic": "manhattan",
+      "cost": 18,
+      "expanded": 100,
+      "generated": 100,
+      "frontier_peak": 10,
+      "time_median_ms": 0.18899999940913403,
+      "time_samples_ms": [
+        0.18769999951473437,
+        0.1891999991130433,
+        0.2002000001084525,
+        0.18899999940913403,
+        0.1869000006990973,
+        0.1916999999593827,
+        0.18259999978909036
+      ]
+    },
+    {
+      "scene": "open",
+      "size": 10,
+      "seed": 43,
+      "heuristic": "zero",
+      "cost": 18,
+      "expanded": 100,
+      "generated": 100,
+      "frontier_peak": 10,
+      "time_median_ms": 0.17770000067685032,
+      "time_samples_ms": [
+        0.1781999999366235,
+        0.17770000067685032,
+        0.17779999961931026,
+        0.173700000232202,
+        0.1768000001902692,
+        0.1770999997461331,
+        0.17840000055002747
+      ]
+    },
+    {
+      "scene": "open",
+      "size": 10,
+      "seed": 43,
+      "heuristic": "manhattan",
+      "cost": 18,
+      "expanded": 100,
+      "generated": 100,
+      "frontier_peak": 10,
+      "time_median_ms": 0.1888999995571794,
+      "time_samples_ms": [
+        0.18519999957788968,
+        0.19020000036107376,
+        0.189200000022538,
+        0.18900000031862874,
+        0.1888999995571794,
+        0.18770000042422907,
+        0.18530000033933902
+      ]
+    },
+    {
+      "scene": "open",
+      "size": 10,
+      "seed": 44,
+      "heuristic": "zero",
+      "cost": 18,
+      "expanded": 100,
+      "generated": 100,
+      "frontier_peak": 10,
+      "time_median_ms": 0.17730000035953708,
+      "time_samples_ms": [
+        0.1830000001064036,
+        0.17870000010589138,
+        0.17590000061318278,
+        0.17599999955564272,
+        0.17720000050758244,
+        0.17730000035953708,
+        0.17779999961931026
+      ]
+    },
+    {
+      "scene": "open",
+      "size": 10,
+      "seed": 44,
+      "heuristic": "manhattan",
+      "cost": 18,
+      "expanded": 100,
+      "generated": 100,
+      "frontier_peak": 10,
+      "time_median_ms": 0.19350000002305023,
+      "time_samples_ms": [
+        0.1922999999806052,
+        0.19160000010742806,
+        0.19189999966329196,
+        0.1982000003408757,
+        0.1990000000660075,
+        0.19350000002305023,
+        0.19609999981184956
+      ]
+    },
+    {
+      "scene": "open",
+      "size": 10,
+      "seed": 45,
+      "heuristic": "zero",
+      "cost": 18,
+      "expanded": 100,
+      "generated": 100,
+      "frontier_peak": 10,
+      "time_median_ms": 0.18120000004273606,
+      "time_samples_ms": [
+        0.1837999998315354,
+        0.1768000001902692,
+        0.18150000050809467,
+        0.18120000004273606,
+        0.17729999945004238,
+        0.1818999999159132,
+        0.17719999959808774
+      ]
+    },
+    {
+      "scene": "open",
+      "size": 10,
+      "seed": 45,
+      "heuristic": "manhattan",
+      "cost": 18,
+      "expanded": 100,
+      "generated": 100,
+      "frontier_peak": 10,
+      "time_median_ms": 0.18799999998009298,
+      "time_samples_ms": [
+        0.18799999998009298,
+        0.18819999968400225,
+        0.18819999968400225,
+        0.18759999966277974,
+        0.18809999983204762,
+        0.18709999949351186,
+        0.18730000010691583
+      ]
+    },
+    {
+      "scene": "open",
+      "size": 10,
+      "seed": 46,
+      "heuristic": "zero",
+      "cost": 18,
+      "expanded": 100,
+      "generated": 100,
+      "frontier_peak": 10,
+      "time_median_ms": 0.1753999995344202,
+      "time_samples_ms": [
+        0.17950000074051786,
+        0.1750999999785563,
+        0.16880000021046726,
+        0.17459999980928842,
+        0.17600000046513742,
+        0.1753999995344202,
+        0.17630000002100132
+      ]
+    },
+    {
+      "scene": "open",
+      "size": 10,
+      "seed": 46,
+      "heuristic": "manhattan",
+      "cost": 18,
+      "expanded": 100,
+      "generated": 100,
+      "frontier_peak": 10,
+      "time_median_ms": 0.18619999991642544,
+      "time_samples_ms": [
+        0.18790000012813834,
+        0.18509999972593505,
+        0.18619999991642544,
+        0.18980000004376052,
+        0.1847000003181165,
+        0.18519999957788968,
+        0.2092000004267902
+      ]
+    },
+    {
+      "scene": "open",
+      "size": 30,
+      "seed": 42,
+      "heuristic": "zero",
+      "cost": 58,
+      "expanded": 900,
+      "generated": 900,
+      "frontier_peak": 30,
+      "time_median_ms": 1.692199999524746,
+      "time_samples_ms": [
+        1.7728000002534827,
+        1.9909000002371613,
+        1.8344000000070082,
+        1.6746999999668333,
+        1.692199999524746,
+        1.687099999799102,
+        1.6889999997147243
+      ]
+    },
+    {
+      "scene": "open",
+      "size": 30,
+      "seed": 42,
+      "heuristic": "manhattan",
+      "cost": 58,
+      "expanded": 900,
+      "generated": 900,
+      "frontier_peak": 30,
+      "time_median_ms": 1.80129999989731,
+      "time_samples_ms": [
+        2.1218000001681503,
+        1.8118999996659113,
+        1.7767999997886363,
+        1.778099999683036,
+        1.776800000698131,
+        1.9689000000653323,
+        1.80129999989731
+      ]
+    },
+    {
+      "scene": "open",
+      "size": 30,
+      "seed": 43,
+      "heuristic": "zero",
+      "cost": 58,
+      "expanded": 900,
+      "generated": 900,
+      "frontier_peak": 30,
+      "time_median_ms": 1.6761999995651422,
+      "time_samples_ms": [
+        1.7004999999699066,
+        1.6749999995226972,
+        1.671600000008766,
+        1.6955000000962173,
+        1.6946999994615908,
+        1.6761999995651422,
+        1.6749000005802372
+      ]
+    },
+    {
+      "scene": "open",
+      "size": 30,
+      "seed": 43,
+      "heuristic": "manhattan",
+      "cost": 58,
+      "expanded": 900,
+      "generated": 900,
+      "frontier_peak": 30,
+      "time_median_ms": 1.8005000001721783,
+      "time_samples_ms": [
+        2.053600000181177,
+        2.1075000004202593,
+        1.8153000000893371,
+        1.7994999998336425,
+        1.8005000001721783,
+        1.7789999992601224,
+        1.7987999999604654
+      ]
+    },
+    {
+      "scene": "open",
+      "size": 30,
+      "seed": 44,
+      "heuristic": "zero",
+      "cost": 58,
+      "expanded": 900,
+      "generated": 900,
+      "frontier_peak": 30,
+      "time_median_ms": 1.7287999999098247,
+      "time_samples_ms": [
+        1.7516000007162802,
+        1.7287999999098247,
+        1.6855000003488385,
+        1.6971999993984355,
+        1.685699999143253,
+        1.7319999997198465,
+        1.7880000004879548
+      ]
+    },
+    {
+      "scene": "open",
+      "size": 30,
+      "seed": 44,
+      "heuristic": "manhattan",
+      "cost": 58,
+      "expanded": 900,
+      "generated": 900,
+      "frontier_peak": 30,
+      "time_median_ms": 1.8046999994112412,
+      "time_samples_ms": [
+        1.8046999994112412,
+        1.8751999996311497,
+        1.8534999999246793,
+        1.8516000000090571,
+        1.791100000446022,
+        1.79649999972753,
+        1.7701000006127288
+      ]
+    },
+    {
+      "scene": "open",
+      "size": 30,
+      "seed": 45,
+      "heuristic": "zero",
+      "cost": 58,
+      "expanded": 900,
+      "generated": 900,
+      "frontier_peak": 30,
+      "time_median_ms": 1.6811999994388316,
+      "time_samples_ms": [
+        1.67669999973441,
+        1.6768000004958594,
+        1.8469999995431863,
+        1.6972000003079302,
+        1.6777000000729458,
+        1.6811999994388316,
+        1.6875000001164153
+      ]
+    },
+    {
+      "scene": "open",
+      "size": 30,
+      "seed": 45,
+      "heuristic": "manhattan",
+      "cost": 58,
+      "expanded": 900,
+      "generated": 900,
+      "frontier_peak": 30,
+      "time_median_ms": 1.8099999997502891,
+      "time_samples_ms": [
+        1.802700000553159,
+        1.8099999997502891,
+        1.783600000635488,
+        1.9565000002330635,
+        1.801500000510714,
+        1.8300000001545413,
+        1.8101999994541984
+      ]
+    },
+    {
+      "scene": "open",
+      "size": 30,
+      "seed": 46,
+      "heuristic": "zero",
+      "cost": 58,
+      "expanded": 900,
+      "generated": 900,
+      "frontier_peak": 30,
+      "time_median_ms": 1.701600000160397,
+      "time_samples_ms": [
+        1.6986000000542845,
+        1.7062999995687278,
+        1.701600000160397,
+        1.6942000002018176,
+        1.7474000005677226,
+        1.7133999999714433,
+        1.6947999993135454
+      ]
+    },
+    {
+      "scene": "open",
+      "size": 30,
+      "seed": 46,
+      "heuristic": "manhattan",
+      "cost": 58,
+      "expanded": 900,
+      "generated": 900,
+      "frontier_peak": 30,
+      "time_median_ms": 1.8074999998134444,
+      "time_samples_ms": [
+        1.7948000004253117,
+        1.9167999998899177,
+        1.8344000000070082,
+        1.7725000006976188,
+        1.8074999998134444,
+        1.808099999834667,
+        1.7972999994526617
+      ]
+    },
+    {
+      "scene": "open",
+      "size": 60,
+      "seed": 42,
+      "heuristic": "zero",
+      "cost": 118,
+      "expanded": 3600,
+      "generated": 3600,
+      "frontier_peak": 60,
+      "time_median_ms": 7.173700000748795,
+      "time_samples_ms": [
+        7.173700000748795,
+        7.341900000028545,
+        6.974400000217429,
+        6.985900000472611,
+        7.289600000149221,
+        7.327799999984563,
+        7.002400000601483
+      ]
+    },
+    {
+      "scene": "open",
+      "size": 60,
+      "seed": 42,
+      "heuristic": "manhattan",
+      "cost": 118,
+      "expanded": 3600,
+      "generated": 3600,
+      "frontier_peak": 60,
+      "time_median_ms": 7.43010000041977,
+      "time_samples_ms": [
+        7.43010000041977,
+        7.89119999990362,
+        7.331300000259944,
+        7.451599999512837,
+        7.518399999753456,
+        7.407099999909406,
+        7.402000000183762
+      ]
+    },
+    {
+      "scene": "open",
+      "size": 60,
+      "seed": 43,
+      "heuristic": "zero",
+      "cost": 118,
+      "expanded": 3600,
+      "generated": 3600,
+      "frontier_peak": 60,
+      "time_median_ms": 7.157600000027742,
+      "time_samples_ms": [
+        6.959999999708089,
+        7.2675000001254375,
+        6.961800000681251,
+        6.923799999640323,
+        7.194100000560866,
+        7.157600000027742,
+        7.249700000102166
+      ]
+    },
+    {
+      "scene": "open",
+      "size": 60,
+      "seed": 43,
+      "heuristic": "manhattan",
+      "cost": 118,
+      "expanded": 3600,
+      "generated": 3600,
+      "frontier_peak": 60,
+      "time_median_ms": 7.514499999160762,
+      "time_samples_ms": [
+        7.453300000634044,
+        7.612100000187638,
+        7.557099999758066,
+        7.373200000074576,
+        7.514499999160762,
+        7.359600000199862,
+        7.53919999988284
+      ]
+    },
+    {
+      "scene": "open",
+      "size": 60,
+      "seed": 44,
+      "heuristic": "zero",
+      "cost": 118,
+      "expanded": 3600,
+      "generated": 3600,
+      "frontier_peak": 60,
+      "time_median_ms": 6.972399999540357,
+      "time_samples_ms": [
+        6.935400000656955,
+        7.080800000039744,
+        7.032299999991665,
+        7.1600999999645865,
+        6.972399999540357,
+        6.919899999957124,
+        6.910099999913655
+      ]
+    },
+    {
+      "scene": "open",
+      "size": 60,
+      "seed": 44,
+      "heuristic": "manhattan",
+      "cost": 118,
+      "expanded": 3600,
+      "generated": 3600,
+      "frontier_peak": 60,
+      "time_median_ms": 7.476400000086869,
+      "time_samples_ms": [
+        7.231699999465491,
+        7.8118999999787775,
+        7.4555000001055305,
+        7.363200000327197,
+        7.4888999997710926,
+        7.678700000724348,
+        7.476400000086869
+      ]
+    },
+    {
+      "scene": "open",
+      "size": 60,
+      "seed": 45,
+      "heuristic": "zero",
+      "cost": 118,
+      "expanded": 3600,
+      "generated": 3600,
+      "frontier_peak": 60,
+      "time_median_ms": 7.00559999950201,
+      "time_samples_ms": [
+        6.873899999845889,
+        7.132100000490027,
+        7.00559999950201,
+        6.980599999224069,
+        7.32389999939187,
+        6.967700000132027,
+        7.053199999973003
+      ]
+    },
+    {
+      "scene": "open",
+      "size": 60,
+      "seed": 45,
+      "heuristic": "manhattan",
+      "cost": 118,
+      "expanded": 3600,
+      "generated": 3600,
+      "frontier_peak": 60,
+      "time_median_ms": 7.430099999510276,
+      "time_samples_ms": [
+        7.374400000117021,
+        7.803399999829708,
+        7.430099999510276,
+        7.497300000068208,
+        7.784299999912037,
+        7.3761999992711935,
+        7.38790000013978
+      ]
+    },
+    {
+      "scene": "open",
+      "size": 60,
+      "seed": 46,
+      "heuristic": "zero",
+      "cost": 118,
+      "expanded": 3600,
+      "generated": 3600,
+      "frontier_peak": 60,
+      "time_median_ms": 6.989400000747992,
+      "time_samples_ms": [
+        6.989400000747992,
+        7.146899999497691,
+        6.980599999224069,
+        6.909199999427074,
+        7.036200000584358,
+        7.036599999992177,
+        6.876399999782734
+      ]
+    },
+    {
+      "scene": "open",
+      "size": 60,
+      "seed": 46,
+      "heuristic": "manhattan",
+      "cost": 118,
+      "expanded": 3600,
+      "generated": 3600,
+      "frontier_peak": 60,
+      "time_median_ms": 7.381899999927555,
+      "time_samples_ms": [
+        7.56569999975909,
+        7.688100000450504,
+        7.381899999927555,
+        7.365099999333324,
+        7.271099999343278,
+        7.493499999327469,
+        7.3686999994606595
+      ]
+    },
+    {
+      "scene": "walls",
+      "size": 10,
+      "seed": 42,
+      "heuristic": "zero",
+      "cost": 18,
+      "expanded": 74,
+      "generated": 74,
+      "frontier_peak": 9,
+      "time_median_ms": 0.12460000016289996,
+      "time_samples_ms": [
+        0.12629999946511816,
+        0.12520000018412247,
+        0.11869999980262946,
+        0.11850000009872019,
+        0.1260999997612089,
+        0.12460000016289996,
+        0.11699999959091656
+      ]
+    },
+    {
+      "scene": "walls",
+      "size": 10,
+      "seed": 42,
+      "heuristic": "manhattan",
+      "cost": 18,
+      "expanded": 60,
+      "generated": 68,
+      "frontier_peak": 11,
+      "time_median_ms": 0.10899999961111462,
+      "time_samples_ms": [
+        0.1095000006898772,
+        0.10899999961111462,
+        0.1081000000340282,
+        0.10830000064743217,
+        0.10919999931502389,
+        0.10850000035134144,
+        0.11189999986527255
+      ]
+    },
+    {
+      "scene": "walls",
+      "size": 10,
+      "seed": 43,
+      "heuristic": "zero",
+      "cost": 18,
+      "expanded": 79,
+      "generated": 80,
+      "frontier_peak": 7,
+      "time_median_ms": 0.1326000001427019,
+      "time_samples_ms": [
+        0.1339999998890562,
+        0.1340000007985509,
+        0.1328999996985658,
+        0.1281000004382804,
+        0.1326000001427019,
+        0.1311999994868529,
+        0.1320000001214794
+      ]
+    },
+    {
+      "scene": "walls",
+      "size": 10,
+      "seed": 43,
+      "heuristic": "manhattan",
+      "cost": 18,
+      "expanded": 60,
+      "generated": 63,
+      "frontier_peak": 7,
+      "time_median_ms": 0.10629999997036066,
+      "time_samples_ms": [
+        0.10629999997036066,
+        0.10629999997036066,
+        0.10539999948377954,
+        0.10620000011840602,
+        0.1063999998223153,
+        0.10689999999158317,
+        0.11070000073232222
+      ]
+    },
+    {
+      "scene": "walls",
+      "size": 10,
+      "seed": 44,
+      "heuristic": "zero",
+      "cost": 18,
+      "expanded": 60,
+      "generated": 66,
+      "frontier_peak": 8,
+      "time_median_ms": 0.10259999999107094,
+      "time_samples_ms": [
+        0.1032999998642481,
+        0.10250000013911631,
+        0.10259999999107094,
+        0.10750000001280569,
+        0.10170000041398453,
+        0.10169999950448982,
+        0.10590000056254212
+      ]
+    },
+    {
+      "scene": "walls",
+      "size": 10,
+      "seed": 44,
+      "heuristic": "manhattan",
+      "cost": 18,
+      "expanded": 42,
+      "generated": 46,
+      "frontier_peak": 6,
+      "time_median_ms": 0.07469999945897143,
+      "time_samples_ms": [
+        0.07970000024215551,
+        0.07469999945897143,
+        0.07439999990310753,
+        0.07550000009359792,
+        0.07450000066455686,
+        0.07449999975506216,
+        0.07469999945897143
+      ]
+    },
+    {
+      "scene": "walls",
+      "size": 10,
+      "seed": 45,
+      "heuristic": "zero",
+      "cost": 18,
+      "expanded": 79,
+      "generated": 80,
+      "frontier_peak": 9,
+      "time_median_ms": 0.13250000029074727,
+      "time_samples_ms": [
+        0.12719999995169928,
+        0.1311999994868529,
+        0.13080000007903436,
+        0.13250000029074727,
+        0.13250000029074727,
+        0.1326000001427019,
+        0.1351000000795466
+      ]
+    },
+    {
+      "scene": "walls",
+      "size": 10,
+      "seed": 45,
+      "heuristic": "manhattan",
+      "cost": 18,
+      "expanded": 72,
+      "generated": 80,
+      "frontier_peak": 14,
+      "time_median_ms": 0.1301000002058572,
+      "time_samples_ms": [
+        0.13779999972030055,
+        0.13659999967785552,
+        0.1300999992963625,
+        0.12969999988854397,
+        0.1301000002058572,
+        0.1289000001634122,
+        0.13380000018514693
+      ]
+    },
+    {
+      "scene": "walls",
+      "size": 10,
+      "seed": 46,
+      "heuristic": "zero",
+      "cost": 18,
+      "expanded": 69,
+      "generated": 69,
+      "frontier_peak": 7,
+      "time_median_ms": 0.1129000002038083,
+      "time_samples_ms": [
+        0.1125999997384497,
+        0.11319999975967221,
+        0.11810000069090165,
+        0.11240000003454043,
+        0.11209999956918182,
+        0.1157000006060116,
+        0.1129000002038083
+      ]
+    },
+    {
+      "scene": "walls",
+      "size": 10,
+      "seed": 46,
+      "heuristic": "manhattan",
+      "cost": 18,
+      "expanded": 55,
+      "generated": 65,
+      "frontier_peak": 13,
+      "time_median_ms": 0.09969999973691301,
+      "time_samples_ms": [
+        0.10010000005422626,
+        0.10000000020227162,
+        0.09890000001178123,
+        0.09940000018104911,
+        0.09969999973691301,
+        0.09809999937715475,
+        0.09970000064640772
+      ]
+    },
+    {
+      "scene": "walls",
+      "size": 30,
+      "seed": 42,
+      "heuristic": "zero",
+      "cost": 58,
+      "expanded": 675,
+      "generated": 675,
+      "frontier_peak": 25,
+      "time_median_ms": 1.1749000004783738,
+      "time_samples_ms": [
+        1.1520999996719183,
+        1.1752000000342377,
+        1.1810999994850135,
+        1.1672000000544358,
+        1.1749000004783738,
+        1.1747999997169245,
+        1.2020000003758469
+      ]
+    },
+    {
+      "scene": "walls",
+      "size": 30,
+      "seed": 42,
+      "heuristic": "manhattan",
+      "cost": 58,
+      "expanded": 462,
+      "generated": 527,
+      "frontier_peak": 73,
+      "time_median_ms": 0.9264000000257511,
+      "time_samples_ms": [
+        0.9622999996281578,
+        0.937099999646307,
+        0.9167000007437309,
+        0.9264000000257511,
+        0.914799999918614,
+        0.9352999995826394,
+        0.9037999998326995
+      ]
+    },
+    {
+      "scene": "walls",
+      "size": 30,
+      "seed": 43,
+      "heuristic": "zero",
+      "cost": 58,
+      "expanded": 673,
+      "generated": 673,
+      "frontier_peak": 26,
+      "time_median_ms": 1.1905000001206645,
+      "time_samples_ms": [
+        1.3269000000946107,
+        1.2715999991996796,
+        1.1907999996765284,
+        1.1905000001206645,
+        1.1504000003697001,
+        1.1863999998240615,
+        1.1727999999493477
+      ]
+    },
+    {
+      "scene": "walls",
+      "size": 30,
+      "seed": 43,
+      "heuristic": "manhattan",
+      "cost": 58,
+      "expanded": 460,
+      "generated": 507,
+      "frontier_peak": 55,
+      "time_median_ms": 0.9068999997907667,
+      "time_samples_ms": [
+        0.9068999997907667,
+        0.9675000001152512,
+        0.9998999994422775,
+        0.9141000000454369,
+        0.8859999998094281,
+        0.9036999999807449,
+        0.878700000612298
+      ]
+    },
+    {
+      "scene": "walls",
+      "size": 30,
+      "seed": 44,
+      "heuristic": "zero",
+      "cost": 58,
+      "expanded": 662,
+      "generated": 662,
+      "frontier_peak": 36,
+      "time_median_ms": 1.1575000007724157,
+      "time_samples_ms": [
+        1.1406000003262307,
+        1.1254999999437132,
+        1.1575000007724157,
+        1.1396999998396495,
+        1.2188999999125372,
+        1.2154000005466514,
+        1.4393000001291512
+      ]
+    },
+    {
+      "scene": "walls",
+      "size": 30,
+      "seed": 44,
+      "heuristic": "manhattan",
+      "cost": 58,
+      "expanded": 412,
+      "generated": 465,
+      "frontier_peak": 58,
+      "time_median_ms": 0.8010000001377193,
+      "time_samples_ms": [
+        0.8078000000750762,
+        0.8091999998214305,
+        0.789200000326673,
+        0.8010000001377193,
+        0.7988000006662332,
+        0.7952999994813581,
+        0.8094000004348345
+      ]
+    },
+    {
+      "scene": "walls",
+      "size": 30,
+      "seed": 45,
+      "heuristic": "zero",
+      "cost": 58,
+      "expanded": 666,
+      "generated": 671,
+      "frontier_peak": 22,
+      "time_median_ms": 1.1647000001175911,
+      "time_samples_ms": [
+        1.2164999998276471,
+        1.1832000000140397,
+        1.142000000072585,
+        1.1647000001175911,
+        1.1459999996077386,
+        1.166699999885168,
+        1.1537999998836312
+      ]
+    },
+    {
+      "scene": "walls",
+      "size": 30,
+      "seed": 45,
+      "heuristic": "manhattan",
+      "cost": 58,
+      "expanded": 506,
+      "generated": 549,
+      "frontier_peak": 45,
+      "time_median_ms": 0.9826000004977686,
+      "time_samples_ms": [
+        0.9781999997358071,
+        1.0421999995742226,
+        0.9933000001183245,
+        0.9826000004977686,
+        0.9710999993330915,
+        0.9942999995473656,
+        0.9815000003072782
+      ]
+    },
+    {
+      "scene": "walls",
+      "size": 30,
+      "seed": 46,
+      "heuristic": "zero",
+      "cost": 58,
+      "expanded": 647,
+      "generated": 647,
+      "frontier_peak": 23,
+      "time_median_ms": 1.1261999998168903,
+      "time_samples_ms": [
+        1.1195000006409828,
+        1.1261999998168903,
+        1.1148000003231573,
+        1.2490999997680774,
+        1.2550999999803025,
+        1.134000000092783,
+        1.1186000001544016
+      ]
+    },
+    {
+      "scene": "walls",
+      "size": 30,
+      "seed": 46,
+      "heuristic": "manhattan",
+      "cost": 58,
+      "expanded": 374,
+      "generated": 411,
+      "frontier_peak": 43,
+      "time_median_ms": 0.7252999994307174,
+      "time_samples_ms": [
+        0.7421000000249478,
+        0.7213999997475185,
+        0.7252999994307174,
+        0.7266000002346118,
+        0.7083999998940271,
+        0.7302999993044068,
+        0.7223999991765595
+      ]
+    },
+    {
+      "scene": "walls",
+      "size": 60,
+      "seed": 42,
+      "heuristic": "zero",
+      "cost": 118,
+      "expanded": 2628,
+      "generated": 2632,
+      "frontier_peak": 48,
+      "time_median_ms": 4.832200000237208,
+      "time_samples_ms": [
+        5.063200000222423,
+        5.129600000145729,
+        4.726600000140024,
+        4.867100000410574,
+        4.666499999984808,
+        4.710000000159198,
+        4.832200000237208
+      ]
+    },
+    {
+      "scene": "walls",
+      "size": 60,
+      "seed": 42,
+      "heuristic": "manhattan",
+      "cost": 118,
+      "expanded": 1991,
+      "generated": 2220,
+      "frontier_peak": 230,
+      "time_median_ms": 4.149100000176986,
+      "time_samples_ms": [
+        4.149100000176986,
+        4.210400000374648,
+        4.225000000587897,
+        4.099099999621103,
+        4.013400000076217,
+        4.214399999909801,
+        4.115300000194111
+      ]
+    },
+    {
+      "scene": "walls",
+      "size": 60,
+      "seed": 43,
+      "heuristic": "zero",
+      "cost": 118,
+      "expanded": 2686,
+      "generated": 2686,
+      "frontier_peak": 51,
+      "time_median_ms": 4.913599999781582,
+      "time_samples_ms": [
+        4.913599999781582,
+        5.022999999710009,
+        4.9852000001919805,
+        4.783899999893038,
+        5.001099999390135,
+        4.758999999467051,
+        4.842100000132632
+      ]
+    },
+    {
+      "scene": "walls",
+      "size": 60,
+      "seed": 43,
+      "heuristic": "manhattan",
+      "cost": 118,
+      "expanded": 1900,
+      "generated": 2102,
+      "frontier_peak": 212,
+      "time_median_ms": 3.923699999177188,
+      "time_samples_ms": [
+        3.891500000463566,
+        4.7897000004013535,
+        3.839900000457419,
+        4.032799999549752,
+        3.923699999177188,
+        3.8988999995126505,
+        3.985100000136299
+      ]
+    },
+    {
+      "scene": "walls",
+      "size": 60,
+      "seed": 44,
+      "heuristic": "zero",
+      "cost": 118,
+      "expanded": 2591,
+      "generated": 2591,
+      "frontier_peak": 50,
+      "time_median_ms": 4.742999999507447,
+      "time_samples_ms": [
+        4.643899999791756,
+        4.907900000034715,
+        4.742999999507447,
+        4.677399999309273,
+        4.580799999530427,
+        4.819900000256894,
+        5.302099999425991
+      ]
+    },
+    {
+      "scene": "walls",
+      "size": 60,
+      "seed": 44,
+      "heuristic": "manhattan",
+      "cost": 118,
+      "expanded": 1495,
+      "generated": 1750,
+      "frontier_peak": 257,
+      "time_median_ms": 3.201200000148674,
+      "time_samples_ms": [
+        3.277999999227177,
+        3.2830999998623156,
+        3.0770000003030873,
+        3.201200000148674,
+        3.1253000006472575,
+        3.0909999995856197,
+        3.514500000164844
+      ]
+    },
+    {
+      "scene": "walls",
+      "size": 60,
+      "seed": 45,
+      "heuristic": "zero",
+      "cost": 118,
+      "expanded": 2633,
+      "generated": 2633,
+      "frontier_peak": 50,
+      "time_median_ms": 5.3234999995765975,
+      "time_samples_ms": [
+        6.903800000145566,
+        5.746799999542418,
+        5.171399999198911,
+        5.26960000024701,
+        5.3234999995765975,
+        5.296599999383034,
+        5.698099999790429
+      ]
+    },
+    {
+      "scene": "walls",
+      "size": 60,
+      "seed": 45,
+      "heuristic": "manhattan",
+      "cost": 118,
+      "expanded": 1685,
+      "generated": 1875,
+      "frontier_peak": 194,
+      "time_median_ms": 3.638700000010431,
+      "time_samples_ms": [
+        3.638700000010431,
+        3.8592000000789994,
+        3.57960000019375,
+        3.834099999949103,
+        3.5625000000436557,
+        3.5134999998263083,
+        4.0558999999120715
+      ]
+    },
+    {
+      "scene": "walls",
+      "size": 60,
+      "seed": 46,
+      "heuristic": "zero",
+      "cost": 118,
+      "expanded": 2595,
+      "generated": 2596,
+      "frontier_peak": 47,
+      "time_median_ms": 4.866999999649124,
+      "time_samples_ms": [
+        4.7766000006959075,
+        5.320400000528025,
+        4.992000000129337,
+        4.700700000284996,
+        4.866999999649124,
+        5.071900000075402,
+        4.723600000033912
+      ]
+    },
+    {
+      "scene": "walls",
+      "size": 60,
+      "seed": 46,
+      "heuristic": "manhattan",
+      "cost": 118,
+      "expanded": 1254,
+      "generated": 1423,
+      "frontier_peak": 171,
+      "time_median_ms": 2.690700000130164,
+      "time_samples_ms": [
+        2.8406000001268694,
+        2.677899999980582,
+        2.585400000498339,
+        2.7221000000281492,
+        2.937700000074983,
+        2.690700000130164,
+        2.6211999993392965
+      ]
+    },
+    {
+      "scene": "weighted",
+      "size": 10,
+      "seed": 42,
+      "heuristic": "zero",
+      "cost": 17,
+      "expanded": 72,
+      "generated": 84,
+      "frontier_peak": 18,
+      "time_median_ms": 0.19610000072134426,
+      "time_samples_ms": [
+        0.19950000023527537,
+        0.19610000072134426,
+        0.20809999932680512,
+        0.2088999999614316,
+        0.16909999976633117,
+        0.1674999994065729,
+        0.16619999951217324
+      ]
+    },
+    {
+      "scene": "weighted",
+      "size": 10,
+      "seed": 42,
+      "heuristic": "admissible",
+      "cost": 17,
+      "expanded": 45,
+      "generated": 65,
+      "frontier_peak": 21,
+      "time_median_ms": 0.14450000071519753,
+      "time_samples_ms": [
+        0.14819999978499254,
+        0.14559999999619322,
+        0.13859999944543233,
+        0.14450000071519753,
+        0.14879999980621506,
+        0.12479999986680923,
+        0.12409999999363208
+      ]
+    },
+    {
+      "scene": "weighted",
+      "size": 10,
+      "seed": 43,
+      "heuristic": "zero",
+      "cost": 17,
+      "expanded": 60,
+      "generated": 67,
+      "frontier_peak": 11,
+      "time_median_ms": 0.13490000037563732,
+      "time_samples_ms": [
+        0.1401999998051906,
+        0.1370999998471234,
+        0.13320000016392441,
+        0.13490000037563732,
+        0.13419999959296547,
+        0.13450000005832408,
+        0.1357000001007691
+      ]
+    },
+    {
+      "scene": "weighted",
+      "size": 10,
+      "seed": 43,
+      "heuristic": "admissible",
+      "cost": 17,
+      "expanded": 40,
+      "generated": 53,
+      "frontier_peak": 14,
+      "time_median_ms": 0.11009999980160501,
+      "time_samples_ms": [
+        0.11030000041500898,
+        0.10879999990720535,
+        0.10750000001280569,
+        0.1098000002457411,
+        0.11180000001331791,
+        0.11009999980160501,
+        0.11650000033114338
+      ]
+    },
+    {
+      "scene": "weighted",
+      "size": 10,
+      "seed": 44,
+      "heuristic": "zero",
+      "cost": 17,
+      "expanded": 55,
+      "generated": 65,
+      "frontier_peak": 13,
+      "time_median_ms": 0.1354000005449052,
+      "time_samples_ms": [
+        0.13450000005832408,
+        0.13490000037563732,
+        0.18000000000029104,
+        0.1354000005449052,
+        0.1675000003160676,
+        0.13409999974101083,
+        0.21870000000490109
+      ]
+    },
+    {
+      "scene": "weighted",
+      "size": 10,
+      "seed": 44,
+      "heuristic": "admissible",
+      "cost": 17,
+      "expanded": 22,
+      "generated": 33,
+      "frontier_peak": 12,
+      "time_median_ms": 0.07880000066506909,
+      "time_samples_ms": [
+        0.07900000036897836,
+        0.07519999962823931,
+        0.07659999937459361,
+        0.08290000005217735,
+        0.07880000066506909,
+        0.07760000062262407,
+        0.08029999935388332
+      ]
+    },
+    {
+      "scene": "weighted",
+      "size": 10,
+      "seed": 45,
+      "heuristic": "zero",
+      "cost": 17,
+      "expanded": 60,
+      "generated": 72,
+      "frontier_peak": 15,
+      "time_median_ms": 0.15009999970061472,
+      "time_samples_ms": [
+        0.1613000003999332,
+        0.15940000048431102,
+        0.15069999972183723,
+        0.15009999970061472,
+        0.14250000003812602,
+        0.1441000003978843,
+        0.13969999963592272
+      ]
+    },
+    {
+      "scene": "weighted",
+      "size": 10,
+      "seed": 45,
+      "heuristic": "admissible",
+      "cost": 17,
+      "expanded": 36,
+      "generated": 57,
+      "frontier_peak": 22,
+      "time_median_ms": 0.10430000020278385,
+      "time_samples_ms": [
+        0.11100000028818613,
+        0.10470000052009709,
+        0.10310000016033882,
+        0.10419999944133451,
+        0.10719999954744708,
+        0.10430000020278385,
+        0.10280000060447492
+      ]
+    },
+    {
+      "scene": "weighted",
+      "size": 10,
+      "seed": 46,
+      "heuristic": "zero",
+      "cost": 17,
+      "expanded": 55,
+      "generated": 62,
+      "frontier_peak": 8,
+      "time_median_ms": 0.13620000027003698,
+      "time_samples_ms": [
+        0.1253000000360771,
+        0.1266999997824314,
+        0.12769999921147246,
+        0.13620000027003698,
+        0.14170000031299423,
+        0.14700000065204222,
+        0.14169999940349953
+      ]
+    },
+    {
+      "scene": "weighted",
+      "size": 10,
+      "seed": 46,
+      "heuristic": "admissible",
+      "cost": 17,
+      "expanded": 25,
+      "generated": 39,
+      "frontier_peak": 15,
+      "time_median_ms": 0.09200000022246968,
+      "time_samples_ms": [
+        0.09090000003197929,
+        0.09379999937664252,
+        0.09419999969395576,
+        0.09200000022246968,
+        0.09179999960906571,
+        0.09259999933419749,
+        0.09199999931297498
+      ]
+    },
+    {
+      "scene": "weighted",
+      "size": 30,
+      "seed": 42,
+      "heuristic": "zero",
+      "cost": 57,
+      "expanded": 553,
+      "generated": 582,
+      "frontier_peak": 49,
+      "time_median_ms": 1.3148999996701605,
+      "time_samples_ms": [
+        1.320299999861163,
+        1.3148999996701605,
+        1.2810999996872852,
+        1.2764000002789544,
+        1.269000000320375,
+        1.369900000099733,
+        1.452900000003865
+      ]
+    },
+    {
+      "scene": "weighted",
+      "size": 30,
+      "seed": 42,
+      "heuristic": "admissible",
+      "cost": 57,
+      "expanded": 126,
+      "generated": 198,
+      "frontier_peak": 73,
+      "time_median_ms": 0.5506000006789691,
+      "time_samples_ms": [
+        0.5427000005511218,
+        0.5461999999170075,
+        0.5362000001696288,
+        0.5506000006789691,
+        0.7665000002816669,
+        0.6032999999661115,
+        0.6978000001254259
+      ]
+    },
+    {
+      "scene": "weighted",
+      "size": 30,
+      "seed": 43,
+      "heuristic": "zero",
+      "cost": 57,
+      "expanded": 634,
+      "generated": 675,
+      "frontier_peak": 57,
+      "time_median_ms": 1.5759999996589613,
+      "time_samples_ms": [
+        1.510000000052969,
+        1.4664000000266242,
+        1.5045000000100117,
+        2.260299999761628,
+        1.7834999998740386,
+        1.947699999618635,
+        1.5759999996589613
+      ]
+    },
+    {
+      "scene": "weighted",
+      "size": 30,
+      "seed": 43,
+      "heuristic": "admissible",
+      "cost": 57,
+      "expanded": 113,
+      "generated": 174,
+      "frontier_peak": 62,
+      "time_median_ms": 0.5012000001443084,
+      "time_samples_ms": [
+        0.5289999999149586,
+        0.4963999999745283,
+        0.49059999946621247,
+        0.4895000001852168,
+        0.5012000001443084,
+        0.6241000000954955,
+        0.5566999998336541
+      ]
+    },
+    {
+      "scene": "weighted",
+      "size": 30,
+      "seed": 44,
+      "heuristic": "zero",
+      "cost": 57,
+      "expanded": 637,
+      "generated": 668,
+      "frontier_peak": 58,
+      "time_median_ms": 1.4457999996011495,
+      "time_samples_ms": [
+        1.4436000001296634,
+        1.4401999997062376,
+        1.47709999964718,
+        1.4417999991565011,
+        1.4457999996011495,
+        1.5524999998888234,
+        1.564700000017183
+      ]
+    },
+    {
+      "scene": "weighted",
+      "size": 30,
+      "seed": 44,
+      "heuristic": "admissible",
+      "cost": 57,
+      "expanded": 106,
+      "generated": 169,
+      "frontier_peak": 64,
+      "time_median_ms": 0.4865000000791042,
+      "time_samples_ms": [
+        0.5528000001504552,
+        0.5575000004682806,
+        0.4865000000791042,
+        0.48319999950763304,
+        0.4810999998881016,
+        0.4865000000791042,
+        0.506600000335311
+      ]
+    },
+    {
+      "scene": "weighted",
+      "size": 30,
+      "seed": 45,
+      "heuristic": "zero",
+      "cost": 57,
+      "expanded": 530,
+      "generated": 565,
+      "frontier_peak": 43,
+      "time_median_ms": 1.2190999996164464,
+      "time_samples_ms": [
+        1.2121999998271349,
+        1.2122999996790895,
+        1.2805000005755574,
+        1.2926999997944222,
+        1.2190999996164464,
+        1.200500000777538,
+        1.3116999998601386
+      ]
+    },
+    {
+      "scene": "weighted",
+      "size": 30,
+      "seed": 45,
+      "heuristic": "admissible",
+      "cost": 57,
+      "expanded": 82,
+      "generated": 125,
+      "frontier_peak": 44,
+      "time_median_ms": 0.42329999996582046,
+      "time_samples_ms": [
+        0.4269999999451102,
+        0.42329999996582046,
+        0.4245999998602201,
+        0.4264999997758423,
+        0.4206000003250665,
+        0.4183000000921311,
+        0.4201000001557986
+      ]
+    },
+    {
+      "scene": "weighted",
+      "size": 30,
+      "seed": 46,
+      "heuristic": "zero",
+      "cost": 57,
+      "expanded": 643,
+      "generated": 673,
+      "frontier_peak": 50,
+      "time_median_ms": 1.4750000000276486,
+      "time_samples_ms": [
+        1.4547999999194872,
+        1.478299999689625,
+        1.4750000000276486,
+        1.47460000061983,
+        1.4884000001984532,
+        1.481499999499647,
+        1.471300000048359
+      ]
+    },
+    {
+      "scene": "weighted",
+      "size": 30,
+      "seed": 46,
+      "heuristic": "admissible",
+      "cost": 57,
+      "expanded": 105,
+      "generated": 160,
+      "frontier_peak": 56,
+      "time_median_ms": 0.4816999999093241,
+      "time_samples_ms": [
+        0.5516999999599648,
+        0.49059999946621247,
+        0.5062999998699524,
+        0.4773999999088119,
+        0.4816999999093241,
+        0.47280000035243575,
+        0.47960000028979266
+      ]
+    },
+    {
+      "scene": "weighted",
+      "size": 60,
+      "seed": 42,
+      "heuristic": "zero",
+      "cost": 117,
+      "expanded": 2397,
+      "generated": 2463,
+      "frontier_peak": 95,
+      "time_median_ms": 5.810099999507656,
+      "time_samples_ms": [
+        5.7901999998648535,
+        5.79959999959101,
+        5.951399999503337,
+        5.900300000575953,
+        5.85880000016914,
+        5.792699999801698,
+        5.810099999507656
+      ]
+    },
+    {
+      "scene": "weighted",
+      "size": 60,
+      "seed": 42,
+      "heuristic": "admissible",
+      "cost": 117,
+      "expanded": 222,
+      "generated": 353,
+      "frontier_peak": 132,
+      "time_median_ms": 1.5440000006492482,
+      "time_samples_ms": [
+        1.5506999998251558,
+        1.5882999996392755,
+        1.5440000006492482,
+        1.5255999996952596,
+        1.5289000002667308,
+        1.672300000791438,
+        1.512400000137859
+      ]
+    },
+    {
+      "scene": "weighted",
+      "size": 60,
+      "seed": 43,
+      "heuristic": "zero",
+      "cost": 117,
+      "expanded": 2228,
+      "generated": 2318,
+      "frontier_peak": 96,
+      "time_median_ms": 5.644299999403302,
+      "time_samples_ms": [
+        5.243099999461265,
+        5.712199999834411,
+        5.938700000115205,
+        6.201099999998405,
+        5.45719999990979,
+        5.315200000040932,
+        5.644299999403302
+      ]
+    },
+    {
+      "scene": "weighted",
+      "size": 60,
+      "seed": 43,
+      "heuristic": "admissible",
+      "cost": 117,
+      "expanded": 189,
+      "generated": 293,
+      "frontier_peak": 105,
+      "time_median_ms": 1.376199999867822,
+      "time_samples_ms": [
+        1.3629000004584668,
+        1.4072000003579888,
+        1.365099999929953,
+        1.3644000000567758,
+        1.376199999867822,
+        1.3922000007369206,
+        1.4400000000023283
+      ]
+    },
+    {
+      "scene": "weighted",
+      "size": 60,
+      "seed": 44,
+      "heuristic": "zero",
+      "cost": 117,
+      "expanded": 2572,
+      "generated": 2652,
+      "frontier_peak": 106,
+      "time_median_ms": 5.994299999656505,
+      "time_samples_ms": [
+        5.861999999979162,
+        5.8547999997244915,
+        5.994299999656505,
+        6.087899999329238,
+        6.561799999872164,
+        5.847200000062003,
+        6.286200000431563
+      ]
+    },
+    {
+      "scene": "weighted",
+      "size": 60,
+      "seed": 44,
+      "heuristic": "admissible",
+      "cost": 117,
+      "expanded": 254,
+      "generated": 401,
+      "frontier_peak": 148,
+      "time_median_ms": 1.512400000137859,
+      "time_samples_ms": [
+        1.5323999996326165,
+        1.512400000137859,
+        1.56059999972058,
+        1.5094000000317465,
+        1.495499999691674,
+        1.4870999993945588,
+        1.5585999999530031
+      ]
+    },
+    {
+      "scene": "weighted",
+      "size": 60,
+      "seed": 45,
+      "heuristic": "zero",
+      "cost": 117,
+      "expanded": 2493,
+      "generated": 2570,
+      "frontier_peak": 114,
+      "time_median_ms": 6.04639999983192,
+      "time_samples_ms": [
+        5.737999999837484,
+        6.2563999999838416,
+        6.04639999983192,
+        6.503999999949883,
+        6.047700000635814,
+        5.753200000071956,
+        5.8729999991555815
+      ]
+    },
+    {
+      "scene": "weighted",
+      "size": 60,
+      "seed": 45,
+      "heuristic": "admissible",
+      "cost": 117,
+      "expanded": 188,
+      "generated": 297,
+      "frontier_peak": 110,
+      "time_median_ms": 1.3746999993600184,
+      "time_samples_ms": [
+        1.3715000004594913,
+        1.3632999998662854,
+        1.3835999998264015,
+        1.3685999992958386,
+        1.3746999993600184,
+        1.4505000008284696,
+        1.3922999996793806
+      ]
+    },
+    {
+      "scene": "weighted",
+      "size": 60,
+      "seed": 46,
+      "heuristic": "zero",
+      "cost": 117,
+      "expanded": 2259,
+      "generated": 2333,
+      "frontier_peak": 100,
+      "time_median_ms": 5.363100000067789,
+      "time_samples_ms": [
+        5.363100000067789,
+        5.256199999166711,
+        5.487200000061421,
+        5.281400000058056,
+        5.323999999745865,
+        5.4679999993823,
+        5.429499999991094
+      ]
+    },
+    {
+      "scene": "weighted",
+      "size": 60,
+      "seed": 46,
+      "heuristic": "admissible",
+      "cost": 117,
+      "expanded": 185,
+      "generated": 285,
+      "frontier_peak": 101,
+      "time_median_ms": 1.3869000003978726,
+      "time_samples_ms": [
+        1.346900000498863,
+        1.3695999996343744,
+        1.4000999999552732,
+        1.357799999823328,
+        1.3869000003978726,
+        1.4685000005556503,
+        1.4123999999355874
+      ]
+    }
+  ],
+  "game_scaling": [
+    {
+      "n": 4,
+      "H": 4,
+      "method": "minimax",
+      "ordering": "natural",
+      "cache": false,
+      "value": 23,
+      "best_action": 3,
+      "visited": 65,
+      "evaluated": 24,
+      "cutoffs": 0,
+      "skipped_children": 0,
+      "cache_hits": 0,
+      "cache_entries": 0,
+      "time_median_ms": 0.12539999988803174,
+      "time_samples_ms": [
+        0.12539999988803174,
+        0.12549999973998638,
+        0.12590000005729962,
+        0.12539999988803174,
+        0.12440000045899069,
+        0.13099999978294363,
+        0.12539999988803174
+      ]
+    },
+    {
+      "n": 4,
+      "H": 4,
+      "method": "alphabeta",
+      "ordering": "natural",
+      "cache": false,
+      "value": 23,
+      "best_action": 3,
+      "visited": 61,
+      "evaluated": 22,
+      "cutoffs": 2,
+      "skipped_children": 2,
+      "cache_hits": 0,
+      "cache_entries": 0,
+      "time_median_ms": 0.12990000050194794,
+      "time_samples_ms": [
+        0.13330000001587905,
+        0.13390000003710156,
+        0.12990000050194794,
+        0.13069999931758502,
+        0.125800000205345,
+        0.1247000000148546,
+        0.12430000060703605
+      ]
+    },
+    {
+      "n": 4,
+      "H": 4,
+      "method": "alphabeta",
+      "ordering": "gain",
+      "cache": false,
+      "value": 23,
+      "best_action": 3,
+      "visited": 31,
+      "evaluated": 10,
+      "cutoffs": 5,
+      "skipped_children": 8,
+      "cache_hits": 0,
+      "cache_entries": 0,
+      "time_median_ms": 0.07949999962875154,
+      "time_samples_ms": [
+        0.07879999975557439,
+        0.07720000030531082,
+        0.07900000036897836,
+        0.07989999994606478,
+        0.07949999962875154,
+        0.07960000039020088,
+        0.07960000039020088
+      ]
+    },
+    {
+      "n": 4,
+      "H": 4,
+      "method": "alphabeta",
+      "ordering": "natural",
+      "cache": true,
+      "value": 23,
+      "best_action": 3,
+      "visited": 61,
+      "evaluated": 22,
+      "cutoffs": 2,
+      "skipped_children": 2,
+      "cache_hits": 0,
+      "cache_entries": 57,
+      "time_median_ms": 0.1604999997653067,
+      "time_samples_ms": [
+        0.1750999999785563,
+        0.16630000027362257,
+        0.15910000001895241,
+        0.1604999997653067,
+        0.16529999993508682,
+        0.15869999970163917,
+        0.16030000006139744
+      ]
+    },
+    {
+      "n": 4,
+      "H": 4,
+      "method": "alphabeta",
+      "ordering": "gain",
+      "cache": true,
+      "value": 23,
+      "best_action": 3,
+      "visited": 31,
+      "evaluated": 10,
+      "cutoffs": 5,
+      "skipped_children": 8,
+      "cache_hits": 0,
+      "cache_entries": 24,
+      "time_median_ms": 0.09810000028664945,
+      "time_samples_ms": [
+        0.09589999990566866,
+        0.09520000003249152,
+        0.09930000032909447,
+        0.10380000003351597,
+        0.10089999977935804,
+        0.09810000028664945,
+        0.09420000060345046
+      ]
+    },
+    {
+      "n": 6,
+      "H": 6,
+      "method": "minimax",
+      "ordering": "natural",
+      "cache": false,
+      "value": 6,
+      "best_action": 3,
+      "visited": 1957,
+      "evaluated": 720,
+      "cutoffs": 0,
+      "skipped_children": 0,
+      "cache_hits": 0,
+      "cache_entries": 0,
+      "time_median_ms": 3.821100000095612,
+      "time_samples_ms": [
+        3.760399999919173,
+        3.821100000095612,
+        3.841100000499864,
+        3.7883999993937323,
+        3.803199999310891,
+        3.9543000002595363,
+        3.9709000002403627
+      ]
+    },
+    {
+      "n": 6,
+      "H": 6,
+      "method": "alphabeta",
+      "ordering": "natural",
+      "cache": false,
+      "value": 6,
+      "best_action": 3,
+      "visited": 842,
+      "evaluated": 287,
+      "cutoffs": 97,
+      "skipped_children": 117,
+      "cache_hits": 0,
+      "cache_entries": 0,
+      "time_median_ms": 1.8849999996746192,
+      "time_samples_ms": [
+        1.8597999996927683,
+        1.850699999522476,
+        1.866399999926216,
+        2.1358000003601774,
+        1.8849999996746192,
+        2.380700000685465,
+        2.237800000330026
+      ]
+    },
+    {
+      "n": 6,
+      "H": 6,
+      "method": "alphabeta",
+      "ordering": "gain",
+      "cache": false,
+      "value": 6,
+      "best_action": 3,
+      "visited": 224,
+      "evaluated": 69,
+      "cutoffs": 44,
+      "skipped_children": 88,
+      "cache_hits": 0,
+      "cache_entries": 0,
+      "time_median_ms": 0.628800000413321,
+      "time_samples_ms": [
+        0.6710000006933114,
+        0.654499999654945,
+        0.6364000000758097,
+        0.628800000413321,
+        0.6061000003683148,
+        0.6019000002197572,
+        0.5983000000924221
+      ]
+    },
+    {
+      "n": 6,
+      "H": 6,
+      "method": "alphabeta",
+      "ordering": "natural",
+      "cache": true,
+      "value": 6,
+      "best_action": 3,
+      "visited": 834,
+      "evaluated": 273,
+      "cutoffs": 97,
+      "skipped_children": 117,
+      "cache_hits": 14,
+      "cache_entries": 689,
+      "time_median_ms": 2.410000000054424,
+      "time_samples_ms": [
+        2.540999999837368,
+        2.2986000003584195,
+        2.53439999960392,
+        2.410000000054424,
+        2.5569999997969717,
+        2.400300000772404,
+        2.380099999754748
+      ]
+    },
+    {
+      "n": 6,
+      "H": 6,
+      "method": "alphabeta",
+      "ordering": "gain",
+      "cache": true,
+      "value": 6,
+      "best_action": 3,
+      "visited": 223,
+      "evaluated": 66,
+      "cutoffs": 44,
+      "skipped_children": 88,
+      "cache_hits": 3,
+      "cache_entries": 163,
+      "time_median_ms": 0.7468000003427733,
+      "time_samples_ms": [
+        0.735000000531727,
+        0.7119000001694076,
+        0.830899999527901,
+        0.7067000005918089,
+        0.7783999999446678,
+        0.8863000002747867,
+        0.7468000003427733
+      ]
+    },
+    {
+      "n": 8,
+      "H": 8,
+      "method": "minimax",
+      "ordering": "natural",
+      "cache": false,
+      "value": 3,
+      "best_action": 0,
+      "visited": 109601,
+      "evaluated": 40320,
+      "cutoffs": 0,
+      "skipped_children": 0,
+      "cache_hits": 0,
+      "cache_entries": 0,
+      "time_median_ms": 226.8672999998671,
+      "time_samples_ms": [
+        226.01339999982883,
+        225.06890000022395,
+        226.8672999998671,
+        228.36350000034145,
+        229.25710000072286,
+        228.18809999989753,
+        225.67720000006375
+      ]
+    },
+    {
+      "n": 8,
+      "H": 8,
+      "method": "alphabeta",
+      "ordering": "natural",
+      "cache": false,
+      "value": 3,
+      "best_action": 0,
+      "visited": 6095,
+      "evaluated": 1981,
+      "cutoffs": 954,
+      "skipped_children": 1513,
+      "cache_hits": 0,
+      "cache_entries": 0,
+      "time_median_ms": 14.20609999968292,
+      "time_samples_ms": [
+        14.131899999483721,
+        14.524100000016915,
+        14.463100000284612,
+        13.947700000244367,
+        14.022299999851384,
+        14.20609999968292,
+        14.697700000397163
+      ]
+    },
+    {
+      "n": 8,
+      "H": 8,
+      "method": "alphabeta",
+      "ordering": "gain",
+      "cache": false,
+      "value": 3,
+      "best_action": 0,
+      "visited": 2547,
+      "evaluated": 732,
+      "cutoffs": 682,
+      "skipped_children": 1312,
+      "cache_hits": 0,
+      "cache_entries": 0,
+      "time_median_ms": 7.038999999167572,
+      "time_samples_ms": [
+        7.962599999700615,
+        7.033599999886064,
+        7.0134999996298575,
+        7.038999999167572,
+        7.152700000006007,
+        6.966900000406895,
+        7.107399999767949
+      ]
+    },
+    {
+      "n": 8,
+      "H": 8,
+      "method": "alphabeta",
+      "ordering": "natural",
+      "cache": true,
+      "value": 3,
+      "best_action": 0,
+      "visited": 5678,
+      "evaluated": 1491,
+      "cutoffs": 951,
+      "skipped_children": 1510,
+      "cache_hits": 438,
+      "cache_entries": 3912,
+      "time_median_ms": 17.663399999946705,
+      "time_samples_ms": [
+        17.31519999975717,
+        18.007000000579865,
+        25.85460000045714,
+        17.169900000226335,
+        18.64480000040203,
+        17.593000000488246,
+        17.663399999946705
+      ]
+    },
+    {
+      "n": 8,
+      "H": 8,
+      "method": "alphabeta",
+      "ordering": "gain",
+      "cache": true,
+      "value": 3,
+      "best_action": 0,
+      "visited": 2395,
+      "evaluated": 561,
+      "cutoffs": 681,
+      "skipped_children": 1311,
+      "cache_hits": 151,
+      "cache_entries": 1371,
+      "time_median_ms": 8.326799999849754,
+      "time_samples_ms": [
+        8.187299999917741,
+        8.519799999703537,
+        8.302999999614258,
+        8.326799999849754,
+        8.344700000634475,
+        10.192300000198884,
+        8.230100000218954
+      ]
+    }
+  ],
+  "game_scaling_inputs": [
+    {
+      "n": 4,
+      "seed": 42,
+      "points": [
+        [
+          16,
+          7
+        ],
+        [
+          2,
+          17
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          18,
+          19
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          6,
+          5
+        ]
+      ],
+      "values": [
+        12,
+        9,
+        8,
+        22
+      ],
+      "distances": [
+        [
+          0,
+          24,
+          21,
+          14,
+          16,
+          12
+        ],
+        [
+          24,
+          0,
+          7,
+          18,
+          22,
+          16
+        ],
+        [
+          21,
+          7,
+          0,
+          25,
+          19,
+          13
+        ],
+        [
+          14,
+          18,
+          25,
+          0,
+          30,
+          26
+        ],
+        [
+          16,
+          22,
+          19,
+          30,
+          0,
+          6
+        ],
+        [
+          12,
+          16,
+          13,
+          26,
+          6,
+          0
+        ]
+      ]
+    },
+    {
+      "n": 6,
+      "seed": 42,
+      "points": [
+        [
+          16,
+          7
+        ],
+        [
+          2,
+          17
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          18,
+          19
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          6,
+          5
+        ],
+        [
+          5,
+          14
+        ],
+        [
+          3,
+          11
+        ]
+      ],
+      "values": [
+        8,
+        22,
+        7,
+        23,
+        18,
+        6
+      ],
+      "distances": [
+        [
+          0,
+          24,
+          21,
+          14,
+          16,
+          12,
+          18,
+          17
+        ],
+        [
+          24,
+          0,
+          7,
+          18,
+          22,
+          16,
+          6,
+          7
+        ],
+        [
+          21,
+          7,
+          0,
+          25,
+          19,
+          13,
+          7,
+          4
+        ],
+        [
+          14,
+          18,
+          25,
+          0,
+          30,
+          26,
+          18,
+          23
+        ],
+        [
+          16,
+          22,
+          19,
+          30,
+          0,
+          6,
+          16,
+          15
+        ],
+        [
+          12,
+          16,
+          13,
+          26,
+          6,
+          0,
+          10,
+          9
+        ],
+        [
+          18,
+          6,
+          7,
+          18,
+          16,
+          10,
+          0,
+          5
+        ],
+        [
+          17,
+          7,
+          4,
+          23,
+          15,
+          9,
+          5,
+          0
+        ]
+      ]
+    },
+    {
+      "n": 8,
+      "seed": 42,
+      "points": [
+        [
+          16,
+          7
+        ],
+        [
+          2,
+          17
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          18,
+          19
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          6,
+          5
+        ],
+        [
+          5,
+          14
+        ],
+        [
+          3,
+          11
+        ],
+        [
+          18,
+          17
+        ],
+        [
+          2,
+          12
+        ]
+      ],
+      "values": [
+        22,
+        7,
+        23,
+        18,
+        6,
+        5,
+        7,
+        11
+      ],
+      "distances": [
+        [
+          0,
+          24,
+          21,
+          14,
+          16,
+          12,
+          18,
+          17,
+          12,
+          19
+        ],
+        [
+          24,
+          0,
+          7,
+          18,
+          22,
+          16,
+          6,
+          7,
+          16,
+          5
+        ],
+        [
+          21,
+          7,
+          0,
+          25,
+          19,
+          13,
+          7,
+          4,
+          23,
+          2
+        ],
+        [
+          14,
+          18,
+          25,
+          0,
+          30,
+          26,
+          18,
+          23,
+          2,
+          23
+        ],
+        [
+          16,
+          22,
+          19,
+          30,
+          0,
+          6,
+          16,
+          15,
+          28,
+          17
+        ],
+        [
+          12,
+          16,
+          13,
+          26,
+          6,
+          0,
+          10,
+          9,
+          24,
+          11
+        ],
+        [
+          18,
+          6,
+          7,
+          18,
+          16,
+          10,
+          0,
+          5,
+          16,
+          5
+        ],
+        [
+          17,
+          7,
+          4,
+          23,
+          15,
+          9,
+          5,
+          0,
+          21,
+          2
+        ],
+        [
+          12,
+          16,
+          23,
+          2,
+          28,
+          24,
+          16,
+          21,
+          0,
+          21
+        ],
+        [
+          19,
+          5,
+          2,
+          23,
+          17,
+          11,
+          5,
+          2,
+          21,
+          0
+        ]
+      ]
+    }
+  ]
+}

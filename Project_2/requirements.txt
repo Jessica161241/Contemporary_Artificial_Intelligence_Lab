@@ -1,0 +1,4 @@
+# 算法和正确性测试只使用 Python 标准库。
+# 绘图所用的具体版本记录在 results/raw/environment.json 中。
+matplotlib>=3.7,<4
+numpy>=1.24,<3

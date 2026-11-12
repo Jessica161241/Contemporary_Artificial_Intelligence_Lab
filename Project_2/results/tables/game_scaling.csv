@@ -1,0 +1,16 @@
+﻿n,H,method,ordering,cache,value,best_action,visited,evaluated,cutoffs,skipped_children,cache_hits,cache_entries,time_median_ms
+4,4,minimax,natural,False,23,3,65,24,0,0,0,0,0.12539999988803174
+4,4,alphabeta,natural,False,23,3,61,22,2,2,0,0,0.12990000050194794
+4,4,alphabeta,gain,False,23,3,31,10,5,8,0,0,0.07949999962875154
+4,4,alphabeta,natural,True,23,3,61,22,2,2,0,57,0.1604999997653067
+4,4,alphabeta,gain,True,23,3,31,10,5,8,0,24,0.09810000028664945
+6,6,minimax,natural,False,6,3,1957,720,0,0,0,0,3.821100000095612
+6,6,alphabeta,natural,False,6,3,842,287,97,117,0,0,1.8849999996746192
+6,6,alphabeta,gain,False,6,3,224,69,44,88,0,0,0.628800000413321
+6,6,alphabeta,natural,True,6,3,834,273,97,117,14,689,2.410000000054424
+6,6,alphabeta,gain,True,6,3,223,66,44,88,3,163,0.7468000003427733
+8,8,minimax,natural,False,3,0,109601,40320,0,0,0,0,226.8672999998671
+8,8,alphabeta,natural,False,3,0,6095,1981,954,1513,0,0,14.20609999968292
+8,8,alphabeta,gain,False,3,0,2547,732,682,1312,0,0,7.038999999167572
+8,8,alphabeta,natural,True,3,0,5678,1491,951,1510,438,3912,17.663399999946705
+8,8,alphabeta,gain,True,3,0,2395,561,681,1311,151,1371,8.326799999849754

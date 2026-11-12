@@ -1,0 +1,18 @@
+{
+  "python": "3.13.9",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+  "matplotlib": "3.9.2",
+  "numpy": "2.5.4",
+  "repeats": 7,
+  "warmups": 1,
+  "grid_seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "game_seed": 42,
+  "tie_break": "FIFO for A*; first strict improvement for games"
+}
